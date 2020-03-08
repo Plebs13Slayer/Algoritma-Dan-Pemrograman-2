@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
 	int i,j,k;
-	int dus[3][3]={(2,4,6),(8,10,12),(14,16,18)};
+	int dus[3][3];
 	
 	cout<<"jumlah dus = 9"<<endl;
 	
