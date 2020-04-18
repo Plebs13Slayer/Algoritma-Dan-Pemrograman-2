@@ -32,4 +32,5 @@ int main(){
 			cout<<arrm[x][y]<<" ";
 		}
 	}
+	printf("\nForm =\n+ - +\n- + -\n+ - +");
 }
