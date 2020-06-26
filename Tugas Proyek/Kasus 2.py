@@ -63,6 +63,9 @@ while flag == 1:
             print('Jam kerja : ' + karyawan[key][2])
             print('Gaji : Rp.' + str(gaji))
             Line()
+        else:
+            print('Data tidak ditemukan')
+            Line()
     # Check Option
     flag = int(input('apakah anda ingin menampilkan data lain ? \n1.Iya\n2.Tidak\n>>'))
     Line()
