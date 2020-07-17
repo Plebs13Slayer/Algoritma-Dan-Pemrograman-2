@@ -63,11 +63,7 @@ flag = 1 # Deklarasi Check
 while flag == 1:
     item = input('Masukkan NIK Yang Akan Ditampilkan : ')
     # Mencari Key Dalam Dictionary
-    if item in karyawan:
-        found()
-    else:
-        print('Data Tidak Ditemukan')
-        line()
+    found() if item in karyawan else print('Data tidak ditemukan'),line()
     # Check Option
     flag = int(input('apakah anda ingin menampilkan data lain ? \n1.Iya\n2.Tidak\n>>'))
     line()
